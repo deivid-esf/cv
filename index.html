@@ -12,27 +12,31 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="style.css">
     <style>
       html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     </style>
     
   </head>
-
-  <body class="w3-light-grey" cz-shortcut-listen="true">
   
+  <body class="w3-light-grey" cz-shortcut-listen="true" >
+    
     <!-- Page Container -->
-    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+    <div class="w3-content w3-margin-top" style="max-width:1400px; position: relative;">
+      <button class="w3-btn w3-round-xxlarge w3-small w3-grey" style="position: fixed; bottom: 20px; right: 20px; display: flex; align-items: center;">
+        <i class="fa fa-moon-o w3-xlarge w3-margin-right"></i>
+        <p class="texto-botao" style="line-height: 1; margin: 0; padding: 0;">Modo escuro</p>
+      </button>
   
       <!-- The Grid -->
       <div class="w3-row-padding">
-  
+        
         <!-- Left Column -->
         <div class="w3-third">
   
           <div class="w3-white w3-text-grey w3-card-4">
 
-            <div class="w3-container">
+            <div class="w3-container" style="display: flex;">
               <h2>Deivid Esteferson</h2>
             </div>
             <div class="w3-container">
@@ -88,7 +92,7 @@
         <!-- Right Column -->
         <div class="w3-twothird">
     
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <div class="w3-container w3-text-grey w3-card w3-white w3-margin-bottom">
             <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Sobre</h2>
             <p>Estudante de desenvolvimento web. Iniciei meus estudos na área em 2020, mas só pude me aprofundar após a conclusão no Ensino Médio, em 2022. Tenho conhecimentos avançados em HTML5 e CSS3. Venho desenvolvendo pequenos projetos para aplicar minhas habilidades. No início de 2023 comecei meus estudos em Javascript e pouco depois comecei a estudar ReactJS. Atualmente, estou desenvolvendo projetos para ampliar meus conhecimentos de Javascript.</p>
           </div>
@@ -97,8 +101,8 @@
             <h2 class="w3-text-grey w3-padding-16">
               <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Experiências
             </h2>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Designer Digital - Freelancer</b></h5>
+            <div class="w3-container w3-text-grey">
+              <h5><b>Designer Digital - Freelancer</b></h5>
               <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Julho 2020 - <span class="w3-tag w3-indigo w3-round">Atual</span></h6>
               <p>Prestação de serviços para clientes, solucionando problemas de design; geralmente com a criação de logotipos, cartões de visita, cartões digitais, cardápios, posts para redes sociais, entre outros.</p>
             </div>
@@ -109,8 +113,8 @@
               <i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Educação
             </h2>
 
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>DevMedia</b></h5>
+            <div class="w3-container w3-text-grey">
+              <h5><b>DevMedia</b></h5>
               <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Julho 2022- <span class="w3-tag w3-indigo w3-round">Atual</span></h6>
               <p>
                 A DevMedia é a maior plataforma para desenvolvedores de software em língua portuguesa. 
@@ -124,8 +128,8 @@
                 <li><a href="https://www.devmedia.com.br/certificado/tecnologia/react/deivid-esteferson-da-silva-felicio" target="_blank">React (53h)</a></li>
               </ul>
             </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Digital Innovation One (DIO)</b></h5>
+            <div class="w3-container w3-text-grey">
+              <h5><b>Digital Innovation One (DIO)</b></h5>
               <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Maio 2023- <span class="w3-tag w3-indigo w3-round">Atual</span></h6>
               <p>
                 Maior plataforma de educação aberta em TI da América Latina, com mais 1 milhão de usuários. 
@@ -137,18 +141,18 @@
               </ul>
               <hr>
             </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Instituto Federal do Pará - Campus Altamira</b></h5>
+            <div class="w3-container w3-text-grey">
+              <h5><b>Instituto Federal do Pará - Campus Altamira</b></h5>
               <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Janeiro 2019 - Março 2023</h6>
               <p>Ensino Médio Integrado ao Curso Técnico em Edificações.</p>
             </div>
           </div>
 
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <div class="w3-container w3-text-grey w3-card w3-white w3-margin-bottom">
             <h2 class="w3-text-grey w3-padding-16">
               <i class="fa fa-archive fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Projetos
             </h2>
-            <div class="w3-container">
+            <div class="w3-container w3-text-grey">
               <h6 class="w3-text-indigo">
                 <i class="fa fa-github fa-fw w3-margin-right"></i>
                 <a href="https://github.com/deivid-esf/decodificador-de-texto" target="_blank">deivid-esf/decodificador-de-texto</a>
@@ -156,7 +160,7 @@
               <p>Site que faz criptografia e descriptografia de textos.</p>
               <hr>
             </div>
-            <div class="w3-container">
+            <div class="w3-container w3-text-grey">
               <h6 class="w3-text-indigo">
                 <i class="fa fa-github fa-fw w3-margin-right"></i>
                 <a href="https://github.com/deivid-esf/age-calculator" target="_blank">deivid-esf/age-calculator</a>
@@ -164,7 +168,7 @@
               <p>Calcura de idade real, que retorna a idade em anos, meses e dias.</p>
               <hr>
             </div>
-            <div class="w3-container">
+            <div class="w3-container w3-text-grey">
               <h6 class="w3-text-indigo">
                 <i class="fa fa-github fa-fw w3-margin-right"></i>
                 <a href="https://github.com/deivid-esf/huddle-landing-page" target="_blank">deivid-esf/huddle-landing-page</a>
@@ -172,7 +176,7 @@
               <p>Landing page responsiva utilizando apenas CSS: Grid Layout e Flexbox.</p>
               <hr>
             </div>
-            <div class="w3-container">
+            <div class="w3-container w3-text-grey">
               <h6 class="w3-text-indigo">
                 <i class="fa fa-github fa-fw w3-margin-right"></i>
                 <a href="https://github.com/deivid-esf/agencia-viagens" target="_blank">deivid-esf/agencia-viagens</a>
@@ -198,7 +202,7 @@
       <a href="https://www.linkedin.com/in/deivid-esf/" target="_blank"><i class="fa fa-linkedin w3-xxlarge w3-hover-opacity"></i></a>
       <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
     </footer>
-  
+  <script src="modos.js"></script>
   </body>
 
 </html>
